@@ -1,0 +1,18 @@
+<html> 
+<head>
+<title>Hello World</title>
+</head>
+<body>
+<p>Hello <b><span id="person">Chuck</span></b> there.</p> 
+<p>
+    <a href="#" onclick="ganti();"> test </a>
+</p>
+<script type="text/javascript">
+console.dir(document.getElementById('person'));
+st = document.getElementById('person').innerHTML;
+console.log("ST = "+st);
+alert('Hi there ' + st);
+document.getElementById('person').innerHTML = 'Joseph';
+</script>
+</body> 
+</html>
